@@ -1,0 +1,9 @@
+grpc:
+  client:
+    xxx-api-server:
+      address: static://127.0.0.1:9090
+      enableKeepAlive: true
+      keepAliveWithoutCalls: true
+      negotiationType: PLAINTEXT
+server:
+  port: 9001

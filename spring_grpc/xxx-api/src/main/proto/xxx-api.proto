@@ -1,0 +1,15 @@
+syntax = "proto3";
+package pb;
+
+message GetUserInfoReq {
+  string userName = 1;
+}
+
+message GetUserInfoRes {
+  string userName = 1;
+  string address = 2;
+}
+
+service ApiServer {
+  rpc getUserInfo (GetUserInfoReq) returns (GetUserInfoRes);
+}
