@@ -1,4 +1,4 @@
-package com.example.socket;
+package com.example.socket.bio;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

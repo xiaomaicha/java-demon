@@ -1,4 +1,4 @@
-package com.example.javase.jdbc;
+package com.example.jdbc;
 
 /*
  * @description:

@@ -1,4 +1,4 @@
-package com.example.socket;
+package com.example.socket.bio;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;
@@ -68,6 +68,7 @@ public class Server {
                 if (socket != null) {
                     try {
                         socket.close();
+                        System.out.println("服务端关闭连接");
                     } catch (Exception e) {
                         socket = null;
                         System.out.println("服务端 finally 异常:" + e.getMessage());
